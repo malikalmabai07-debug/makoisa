@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f8fc;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: purple;
+  color: white;
+  padding: 30px 20px;
+}
+
+.header { 
+  background-color: purple; 
+  color: white; 
+  padding: 30px; 
+  text-align: center; 
+} 
+  
+.navbar { 
+  overflow: hidden; 
+  background-color: purple; 
+  text-align: center; 
+} 
+  
+.navbar a { 
+  display: inline-block; 
+  color: black; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+  margin: 2px; 
+  background-color: #e0ffff; 
+  border-radius: 5px; 
+} 
+  
+.navbar a:hover { 
+  background-color: purple; 
+  color: white; 
+} 
+.navbar a.active {
+  background-color: blue; 
+  color: white;          
+  border-radius: 5px;     
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 10px 0 0;
+  font-weight: normal;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: purple;
+}
+
+.card ul {
+  margin: 10px 0 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: purple;
+  color: white;
+  margin-top: 30px;
+}
